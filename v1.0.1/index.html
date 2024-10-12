@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Language API - Layout with Dropdown Menu</title>
+  <link rel="stylesheet" href="styles.css">
+  <style>
+   
+  </style>
+</head>
+
+<body>
+  <div class="grid-container">
+    <!-- Header Section -->
+    <header class="header">Language API Dashboard</header>
+
+    <!-- Navigation Section with Dropdown Menu -->
+    <nav class="nav">
+      <ul class="nav-menu">
+        <li><a href="#">Home</a></li>
+        <li><a href="#">Languages</a></li>
+        <li class="dropdown">
+          <a href="#" class="dropdown-btn">Explore ▼</a>
+          <ul class="dropdown-menu">
+            <li><a href="#">About</a></li>
+            <li><a href="#">Contact</a></li>
+            <li><a href="#">Portfolio</a></li>
+            <li><a href="#">Clans</a></li>
+            <li><a href="#">Races</a></li>
+            <li><a href="#">Tribes</a></li>
+            <li><a href="#">Cultures</a></li>
+            <li><a href="#">Traditions</a></li>
+            <li><a href="#">Heritage</a></li>
+            <li><a href="#">Calendar</a></li>
+          </ul>
+        </li>
+        <li><a href="#">Settings</a></li>
+      </ul>
+    </nav>
+<div class="container">
+  
+
+    <!-- Left Sidebar -->
+    <aside class="left-sidebar">
+      <h3>Language Options</h3>
+
+      <p>Select a language from the list on the left to view more information.</p>
+
+      <input type="text" id="search" placeholder="Search languages..." />
+      <div id="buttonContainer" class="button-container"></div> <!-- Buttons generated here -->
+    </aside>
+
+    <!-- Main Content -->
+    <main class="main-content">
+      <h2>Selected Language Info</h2>
+      <p id="languageInfo">Click a language button to display details here.</p>
+    </main>
+
+    <!-- Right Sidebar -->
+    <aside class="right-sidebar">
+      
+      <h3>Language News</h3>
+    </aside>
+  </div>
+    <!-- Footer Section -->
+    <footer class="footer">
+      Copyright © 2024 Language API. All Rights Reserved.
+      <span class="watermark">LanguageAPI</span>
+    </footer>
+  </div>
+
+  <script src="languageAPI.js"></script>
+</body>
+
+</html>
